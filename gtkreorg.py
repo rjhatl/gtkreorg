@@ -5,8 +5,8 @@ from faker import Faker
 
 fake = Faker()
 
-names = ["Arnon Levy", "Kate Levy", "Don Moore", fake.name(), fake.name(), fake.name(), fake.name(), fake.name()]
-roles = ["Chairman", "CEO", "VP of Finance", "CTO", "COO", "SVP of Sales", "Managing Director, APAC", "Managing Director, EMEA"]
+names = ["Arnon Levy", "Kate Levy", "Don Moore", fake.name(), fake.name(), fake.name(), fake.name(), fake.name(), fake.name()]
+roles = ["Chairman", "CEO", "VP of Finance", "CTO", "COO", "SVP of Sales", "Managing Director, APAC", "Managing Director, EMEA", "VP of Support"]
 
 print("GuestTek Interactive Entertainment Ltd, the global leader in providing management reorg announcements, is pleased to announce its new team structure.")
 
