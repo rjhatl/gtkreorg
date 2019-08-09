@@ -22,10 +22,9 @@ print("")
 print("\033[1m" + "GuestTek Appoints New Management Team" + "\033[0m")
 print("")
 print("\033[1m" + "Calgary, Alberta - " + today + "\033[0m  " +
-"GuestTek Interactive Entertainment Ltd, the global leader in providing \
-management reorg announcements, is pleased to announce its new team \
-structure effective immediately: ")
-print("")
+"GuestTek Interactive Entertainment Ltd, the \n\
+ global leader in providing management reorg announcements, is pleased to \n\
+ announce its new senior management team:\n ")
 
 # Reorg time!
 shuffle(names)
@@ -40,12 +39,12 @@ for name, pos in neworg.items():
 secbd = list(neworg.keys())[-1]
 
 print("")
-print(f"{secbd}, the new Secretary of Balloon Doggies, said they are \
-very pleased to be named to their role, and are humbled that the balloon \
-doggies demanded it so vocally.")
+print(f" {secbd}, the new Secretary of Balloon Doggies, said they are very\n\
+ pleased to serve in this new role, and are very humbled that the\n\
+ balloon doggies demanded it so vocally.")
 print("")
-print("GuestTek would like to congratulate the new team and wishes \
-them well in the coming weeks until the next reorg. We would also \
-like to thank the previous employees who held these roles and \
-wish them the best of luck in their new endeavors, or worst case, \
-we'll see them back here again in a future reorg.")
+print(" GuestTek would like to congratulate the new team and wishes them well\n\
+ in the coming weeks leading up to the next reorg. We would also like to\n\
+ thank the previous employees who held these roles and wish them the best\n\
+ of luck in their new endeavors, or worst case, we'll see them back here\n\
+ again in a future reorg.")
