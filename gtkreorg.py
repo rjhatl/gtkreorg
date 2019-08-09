@@ -40,8 +40,8 @@ for name, pos in neworg.items():
 secbd = list(neworg.keys())[-1]
 
 print("")
-print(f"{secbd}, the new Secretary of Balloon Doggies, said they were \
-very pleased to be named to their role, and was humbled that the balloon \
+print(f"{secbd}, the new Secretary of Balloon Doggies, said they are \
+very pleased to be named to their role, and are humbled that the balloon \
 doggies demanded it so vocally.")
 print("")
 print("GuestTek would like to congratulate the new team and wishes \
